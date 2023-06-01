@@ -196,10 +196,10 @@ function! s:init_vt100_extra_home_end()
 endfunc
 
 function! s:init_xterm_arrows()
-	call s:set_key("<Up>",     "\e[1;*A")
-	call s:set_key("<Down>",   "\e[1;*B")
-	call s:set_key("<Left>",   "\e[1;*D")
-	call s:set_key("<Right>",  "\e[1;*C")
+	" call s:set_key("<Up>",     "\e[1;*A")
+	" call s:set_key("<Down>",   "\e[1;*B")
+	" call s:set_key("<Left>",   "\e[1;*D")
+	" call s:set_key("<Right>",  "\e[1;*C")
 endfunc
 
 function! s:init_vt100_extra_arrows()
