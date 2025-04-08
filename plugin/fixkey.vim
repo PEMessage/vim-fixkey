@@ -191,10 +191,10 @@ function! Fixkey_setVt100ExtraHomeEnd()
 endfunction
 
 function! Fixkey_setXtermArrows()
-    call Fixkey_setKey("<Up>",     "\e[1;*A")
-    call Fixkey_setKey("<Down>",   "\e[1;*B")
-    call Fixkey_setKey("<Left>",   "\e[1;*D")
-    call Fixkey_setKey("<Right>",  "\e[1;*C")
+    " call Fixkey_setKey("<Up>",     "\e[1;*A")
+    " call Fixkey_setKey("<Down>",   "\e[1;*B")
+    " call Fixkey_setKey("<Left>",   "\e[1;*D")
+    " call Fixkey_setKey("<Right>",  "\e[1;*C")
 endfunction
 
 function! Fixkey_setVt100ExtraArrows()
@@ -211,9 +211,9 @@ endfunction
 
 function! Fixkey_setXtermNavigationKeys()
     call Fixkey_setXtermHomeEnd()
-    call Fixkey_setVt100ExtraHomeEnd()
+    " call Fixkey_setVt100ExtraHomeEnd()
     call Fixkey_setXtermArrows()
-    call Fixkey_setVt100ExtraArrows()
+    " call Fixkey_setVt100ExtraArrows()
 endfunction
 
 function! Fixkey_setXtermKeys()
