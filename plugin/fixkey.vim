@@ -84,7 +84,7 @@ function! Fixkey_resetMetaNumbers()
 endfunction
 
 function! Fixkey_setMetaShiftNumbers()
-    for c in split('!@#$%^&*()', '\zs')
+    for c in split('@#$%^&*()', '\zs')
         if c == '@'
             " For some reason, M-@ is special in console Vim.
             " See https://github.com/vim/vim/issues/5759 for some details.
